@@ -67,7 +67,12 @@ body {
   font-weight: var(--extra-bold-font);
   color: var(--gray-dark);
   margin-top: 0.25rem;
+}
 
+#title:hover {
+  color: var(--yellow);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 #description {
